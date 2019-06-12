@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/ico" href="images/favion.ico" media="screen" />
+    <title style="display:block;padding:5px 0">用户注册·一起帮</title>
+    <style>
+        .toptop {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0px;
+            background-color: ghostwhite;
+            border:1px solid black;
+        }
+
+        .container {
+            align-content:center;
+            margin-left: 150px;
+            margin-right: 150px;
+            width:1200px;
+            padding: 0;
+            border: 1px solid black;
+        }
+        .pagecontainer {
+            
+            margin-left: 100px;
+            margin-right: 100px;
+            height:50px;
+            padding: 0;
+            border: 0;
+        }
+
+        .lefttitle {
+            float: left;
+            margin-left: 100px;
+        }
+
+        .leftpage{
+            float:left;
+            margin-left:30px;
+            margin-top:50px;           
+        }
+
+        .rightpage{
+            float:right;
+            margin-top:25px;
+            margin-right:30px;
+        }
+
+        .footer{
+            display:block;
+            float:none;
+            margin-left:100px;
+            margin-right:100px;
+        }
+        .ul1 {
+            list-style-type: none;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            padding: 0;
+            float: right;
+            margin-right: 101px;
+            margin-left: 10px;
+        }
+
+        .li1 {
+            display: inline;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+        }
+
+        a1:link {
+            color: green;
+        }
+
+        a1:visited {
+            color: blue;
+        }
+
+        a1:hover {
+            color: black;
+        }
+
+        a1:active {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="toptop">
+        <div class="container">
+            <div class="lefttitle">
+                <a href="http\\:www.17bang.ren"><img src="images/logo-big.ico" style="height:60px;width:60px;"></a>
+                <p style="float:right;margin-left:15px;margin-bottom:10px;margin-top:20px;">
+                    <span style="font-weight:800;color:gray;font-size:20px;">一起帮</span>
+                    <span style="font-size:16px;">·网络互助平台</span>
+                </p>
+            </div>
+            <div>
+                <ul class="ul1">
+                    <li>
+                        <ul class="dropdown-content">
+                            <li1>督导班</li1>
+                            <li1>疑问发布</li1>
+                            <li1>疑问列表</li1>
+                            <li1>列表</li1>
+                            <li1>发布</li1>
+                        </ul>
+                    </li>
+                    <li class="li1"><a1 href="Hurry.html"><span style="padding-right:15px;">督促</span></a1></li>
+                    <li class="li1"><a1 href="Article.html"><span style="padding-right:15px;">文章</span></a1></li>
+                    <li class="li1"><a1 href="Download"><span style="padding-right:15px;">APP下载</span></a1></li>
+                    <li class="li1"><a1 href="Username.html"><span style="padding-right:15px;padding-left:15px">未登录</span></a1></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+   
+<div class="container">
+        <h2>注册</h2>
+        <hr style="color:gray">
+        <div class="leftpage">
+            <form action="register">
+                <div style="margin:5px ;width:380px;border:1px dashed lightblue;background-color:lightcyan;">
+                    邀请人：（*必填，<a href="FindYaoqing">没有邀请人</a>）<br>
+                     <input type="text" name="yaoqingren" style="width:350px" /><br>                  
+                    邀请码：（必填）<br />
+                    <input type="text" name="yaoqingma" style="width:350px">
+                    <br />
+                </div>
+                <div style="margin:6px;width:400px;">
+                    用户名：（*必填）<br />
+                    <input type="text" name="logname"style="width:350px" ><br>
+                    密码：（*必填）<br />
+                    <input type="password" name="logpassword"style="width:350px" ><br>
+                    验证码：（*必填）<br />
+                    <input type="text" name="random"><p1>点击输入框显示</p1><br>
+                    <br />
+                    <input type="submit" value="Submit">   <input type="button" value="Reset" />
+                </div>
+            </form>
+        </div>
+        <div class="rightpage">
+            <div>
+                <p style="font-size:20px">
+                    说明
+                </p>
+            </div>
+            <ol>
+                <li>我们希望通过一起帮，能直接解决大家在电脑操作/软件使用/编程<br />学
+                习等方面的具体问题。</li>
+         
+                <li>现在互联网远程技术（比如QQ桌面共享）已经非常成熟，当我们再<br />
+                遇到上述问题，如果别人能直接远程给予帮助，岂不是好？</li>
+                
+                <li>当然，你也可以在你熟悉的领域去帮助别人。由此而形成我们这个<br />
+                “你帮他他帮我我帮你，大家一起帮”的网上互助社区平台。</li>
+               
+                <li>公平起见，我们还引入了 帮帮点/币/豆 三级概念，以记录和衡量<br/>
+                社区成员的收获和贡献。</li>
+              
+                <li>赶快加入我们，赚取帮帮币吧！</li>
+            </ol>
+        </div>   
+    </div>
+    <div class="container">
+     <p style="float:none">buzhidao</p>
+    </div>
+
+</body>
+</html>
